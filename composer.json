@@ -1,0 +1,35 @@
+{
+  "name": "empewoow/flarum-ext-homepage-user-choice",
+  "description": "Let users choose their own default homepage.",
+  "type": "flarum-extension",
+  "keywords": ["homepage", "user"],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Matthijs Jansen",
+      "email": "empewoow@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/empewoow/flarum-ext-homepage-user-choice/issues",
+    "source": "https://github.com/empewoow/flarum-ext-homepage-user-choice"
+  },
+  "require": {
+    "flarum/core": "^0.1.0-beta.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Empewoow\\HomepageUserChoice\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Homepage User Choice",
+      "icon": {
+        "name": "home",
+        "backgroundColor": "#49e3ff",
+        "color": "#fff"
+      }
+    }
+  }
+}
